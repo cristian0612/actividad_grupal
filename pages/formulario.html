@@ -4,39 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="../styles.css">
     
 </head>
-<body>
+<body class="fondo">
     
     <div id="formulario">
         <div class="bordei">
             <fieldset>
                 <legend>Datos Personales(*)</legend>
                 
-                <form action="mailto:pepe@gmail.com">
-                    <img src="IMG/reformainterior.jpg">
+                <fieldset class="formulario" >
                     <div class="elemento">
-                        <label for="nombre">Apellidos: </label>
+                        <label>Apellidos: </label>
+                        <input type="text" name="apellidos" id="apellidos" required>
+                    </div>
+
+                    <div class="elemento">
+                        <label>Nombre: </label>
                         <input type="text" name="nombre" id="nombre" required>
                     </div>
 
                     <div class="elemento">
-                        <label for="nombre">Nombre: </label>
-                        <input type="text" name="apellidos" id="nombre" required>
+                        <label>DNI: </label>
+                        <input type="text" name="DNI" id="DNI" required>
                     </div>
 
-                    <div class="elemento">
-                        <label for="nombre">DNI: </label>
-                        <input type="text" name="CP" id="nombre" required>
-                    </div>
-
-                    <div class="elemento">
-                        <label for="nombre">Nacido/a en: </label>
-                        <input type="text" name="nick" id="nombre" required>
-                    </div>
-
-                    <div> provincia <select name="provincia">
+                    <div> Provincia <select name="provincia">
                             <option value="1">Álava</option>
                             <option value="2">Albacete</option>
                             <option value="3">Alicante</option>
@@ -90,24 +84,25 @@
 
                         </select>
                     </div>
-                    <div>
-                    fecha nacimiento 
-                    <input type="date" name="fecha de nacimiento">
+                    <div>Fecha nacimiento: <input type="date" name="fecha de nacimiento">
                     </div>
                     
                     <div class="elemento">
-                        <label for="Domicilio">Domicilio(Calle, plaza y número): <br></label>
+                        <label>Domicilio(Calle, plaza y número): </label>
                         <input type="Domicilio" name="Domicilio" id="Domicilio" required>
                     </div>
                     <div class="elemento">
-                        <label for="codigo">Código postal: <br></label>
+                        <label>Código postal: </label>
                         <input type="" name="Codigo" id="Codigo" required>
                     </div>
-                   
-
-
-
-                    <section id="comentarios">
+                    <div class="elemento">
+                        <label>Telefono: </label>
+                        <input type="tel" name="telefono" id="telefono" required>
+                    </div>
+                
+                </fieldset>
+                    <section id="servicios">
+                        
                         <fieldset>
                             <legend>Esta interesado en </legend>
                             <div> Servicios <select name="servicios">
@@ -117,10 +112,18 @@
                                 <option value="4">Baños</option>
                                 <option value="5">Interiores</option>
 
-
+                            </select> 
                         </fieldset>
                     </section>
 
-                </form>
+                    <fieldset>
+                    <legend>Comentarios </legend>
+                    <div class="elemento">
+                        <textarea id="comentario" name="comentario" rows="6" cols="60" placeholder="Escribe tu comentario aquí..."></textarea><br>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+             </form>
+             
 </body>
 </html>

@@ -150,7 +150,27 @@ video {
     }
 }
 
-/*ajuste de video de reformas de pisos*/
+/*formulario melissa*/
+.fondo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-image: url(./IMG/reformainterior.jpg)
+}
+
+.formulario{
+    background-color: rgba(204, 203, 203, 0.678);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 2px;
+}
+fieldset{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(204, 203, 203, 0.678);
+}
+/*ajuste de video de reformas de piso cristian*/
 .video_reformas_pisos {
     position: relative;
     width: 100%;
@@ -169,7 +189,7 @@ video {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/*ajuste de los cuadros de reformas de pisos*/
+/*ajuste de los cuadros de reformas de pisos cristian*/
 
 .inspiraciones {
     margin-bottom: 30px;
@@ -211,7 +231,9 @@ video {
     opacity: 1;
 }
 
-/* Fondos específicos */
+
+
+/* Fondos en los cuadros cristian*/
 .fondo1 {
     background-image: url(./IMG/cuadro1.jpg);
 }
@@ -224,7 +246,44 @@ video {
     background-image: url(./IMG/cuadro3.jpg);
 }
 
+/*reformas de casas cristian */
 
+.fondo4{
+background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
+}
+.fondo5{
+    background-image: url(./IMG/espacio-moderno-funcional-casa-vigo.jpg);
+}
+.fondo6{
+    background-image: url(./IMG/presupuesto-controlado-reforma-casa.jpg);
+}
+/*lista que incluye el servicio de reformar una casa : cristian*/
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .lista-chulitos {
+    list-style: none;
+    padding-left: 0;
+    width: 70%;
+  }
+  
+  .lista-chulitos li::before {
+    content: "✔ ";
+    color: green;
+    margin-right: 6px;
+  }
+
+/*esto es el final de pagina para que te lleve al formulario*/
 .cta-final {
     text-align: center;
     margin-top: 50px;
@@ -272,5 +331,4 @@ video {
     margin-top: 5px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-
 }
