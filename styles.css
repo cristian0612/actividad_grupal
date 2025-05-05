@@ -149,6 +149,7 @@ video {
         width: 100%;
     }
 }
+<<<<<<< HEAD
 /*ajuste de video de reformas de pisos*/
 .video_reformas_pisos {
     position: relative;
@@ -240,4 +241,37 @@ video {
 
 .cta-final button:hover {
     background-color: #3498db;
+=======
+
+/*Quiénes somos style*/
+#mision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#mision h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#mision p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+#mision img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+>>>>>>> bca1af9682683279fae51bf7ec745ce4febeddc2
 }
