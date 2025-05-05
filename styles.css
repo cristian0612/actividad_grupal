@@ -152,3 +152,24 @@ video {
         width: 100%;
     }
 }
+
+/*formulario melissa*/
+.fondo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-image: url(./IMG/reformainterior.jpg)
+}
+
+.formulario{
+    background-color: rgba(204, 203, 203, 0.678);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 2px;
+}
+fieldset{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(204, 203, 203, 0.678);
+}
