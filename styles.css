@@ -155,10 +155,11 @@ video {
 .fondo{
     background-repeat: no-repeat;
     background-position: center;
-    background-size:100% 100%;
+        background-size:100% 100%;
     background-attachment: fixed;
     background-image: url(./IMG/reformainterior.jpg);
 }
+
 
 .formulario{
     background-color: rgba(204, 203, 203, 0.678);
@@ -179,6 +180,7 @@ fieldset{
 }
 
 /*ajuste de video de reformas de piso cristian*/
+
 
 /*ajuste de video de reformas de pisos*/
 
@@ -309,7 +311,6 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     margin-top: 10px;
 }
 
-
 .cta-final button:hover {
     background-color: #3498db;
 }
@@ -322,11 +323,12 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
+
 }
 
 
 /*Quiénes somos style MISION*/
-.fondom{
+.fondom {
   background-image: url(./img/cuadro1.jpg); 
   background-size: cover;                  
   background-position: center;             
@@ -336,12 +338,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
   padding: 0;
   color: rgb(3, 3, 3);                             
   font-family: Arial, sans-serif;
-
 }
-
-
-
-
 
 #mision h2 {
     font-size: 70px;
@@ -399,9 +396,11 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     color: white;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
 }
 
   
+
 
   .cuadroblack{
     background-color: rgba(0, 0, 0, 0.5);
