@@ -154,10 +154,11 @@ video {
 .fondo{
     background-repeat: no-repeat;
     background-position: center;
-    background-size:100% 100%;
+        background-size:100% 100%;
     background-attachment: fixed;
-    background-image: url(./IMG/reformainterior.jpg)
+    background-image: url(./IMG/reformainterior.jpg);
 }
+
 
 .formulario{
     background-color: rgba(204, 203, 203, 0.678);
@@ -170,7 +171,9 @@ fieldset{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(204, 203, 203, 0.678);
 }
+
 /*ajuste de video de reformas de piso cristian*/
+
 .video_reformas_pisos {
     position: relative;
     width: 100%;
@@ -297,8 +300,6 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     font-size: 1.2em;
     margin-top: 10px;
 }
-
-
 .cta-final button:hover {
     background-color: #3498db;
 }
@@ -311,6 +312,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
+
 }
 
 
