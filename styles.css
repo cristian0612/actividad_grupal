@@ -150,6 +150,7 @@ video {
     }
 }
 
+
 /*formulario melissa*/
 .fondo{
     background-repeat: no-repeat;
@@ -165,14 +166,23 @@ video {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     border-radius: 2px;
+    width: 400px;
+    height: 300px;
+    margin: auto;
 }
 fieldset{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(204, 203, 203, 0.678);
+    border-color: #ffffff;
+    border-radius: 10px;
+    
 }
 
 /*ajuste de video de reformas de piso cristian*/
+
+
+/*ajuste de video de reformas de pisos*/
 
 .video_reformas_pisos {
     position: relative;
@@ -300,6 +310,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     font-size: 1.2em;
     margin-top: 10px;
 }
+
 .cta-final button:hover {
     background-color: #3498db;
 }
@@ -385,7 +396,11 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     color: white;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  }
+
+}
+
+  
+
 
   .cuadroblack{
     background-color: rgba(0, 0, 0, 0.5);
