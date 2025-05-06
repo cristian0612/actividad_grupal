@@ -8,11 +8,48 @@
     
 </head>
 <body class="fondo">
+
+    <header>
+        <div class="logo">
+            <img src="../IMG/favicon.jpg" alt="Logo Empresa">
+        </div>
+        <div class="solucion1">
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Servicios</a>
+                <ul>
+                    <li><a href="pages/reformas_pisos.html">Reformas de Pisos</a></li>
+                    <li><a href="./pages/reformas_casas.html">Reformas de Casa</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Quiénes Somos</a>
+                <ul>
+                    <li><a href="./pages/vision.html">Visión</a></li>
+                    <li><a href="./pages/mision.html">Misión</a></li>
+                    <li><a href="./pages/valor.html">Valor</a></li>
+                    <li><a href="./pages/equipo.html">Equipo</a>
+                        <ul>
+                            <li><a href="#">Arquitecto</a></li>
+                            <li><a href="#">Infografista 3D</a></li>
+                            <li><a href="#">Director de Proyectos</a></li>
+                            <li><a href="#">Coordinador de Proyectos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="./formulario.html">Contacto</a></li>
+        </ul>
+    </div>
+</header>
+
+
+
     
     <div id="formulario">
         <div class="bordei">
             <fieldset>
-                <legend>Datos Personales(*)</legend>
+                <legend>DATOS PERSONALES(*)</legend>
                 
                 <fieldset class="formulario" >
                     <div class="elemento">
@@ -88,7 +125,7 @@
                     </div>
                     
                     <div class="elemento">
-                        <label>Domicilio(Calle, plaza y número): </label>
+                        <label>Domicilio: </label>
                         <input type="Domicilio" name="Domicilio" id="Domicilio" required>
                     </div>
                     <div class="elemento">
@@ -104,7 +141,7 @@
                     <section id="servicios">
                         
                         <fieldset>
-                            <legend>Esta interesado en </legend>
+                            <legend>ESTA INTERESADO EN </legend>
                             <div> Servicios <select name="servicios">
                                 <option value="1">Reformas de Pisos</option>
                                 <option value="2">Reformas de casas</option>
@@ -117,7 +154,7 @@
                     </section>
 
                     <fieldset>
-                    <legend>Comentarios </legend>
+                    <legend>COMENTARIOS </legend>
                     <div class="elemento">
                         <textarea id="comentario" name="comentario" rows="6" cols="60" placeholder="Escribe tu comentario aquí..."></textarea><br>
                         <button type="submit">Enviar</button>

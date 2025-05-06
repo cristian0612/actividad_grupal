@@ -149,10 +149,7 @@ video {
         width: 100%;
     }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> d9fd99c7aebcc41a0974609c899e96b5da393815
 
 /*formulario melissa*/
 .fondo{
@@ -160,7 +157,7 @@ video {
     background-position: center;
     background-size:100% 100%;
     background-attachment: fixed;
-    background-image: url(./IMG/reformainterior.jpg)
+    background-image: url(./IMG/reformainterior.jpg);
 }
 
 .formulario{
@@ -168,17 +165,23 @@ video {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     border-radius: 2px;
+    width: 400px;
+    height: 300px;
+    margin: auto;
 }
 fieldset{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(204, 203, 203, 0.678);
+    border-color: #ffffff;
+    border-radius: 10px;
+    
 }
-<<<<<<< HEAD
+
 /*ajuste de video de reformas de piso cristian*/
-=======
+
 /*ajuste de video de reformas de pisos*/
->>>>>>> d9fd99c7aebcc41a0974609c899e96b5da393815
+
 .video_reformas_pisos {
     position: relative;
     width: 100%;
@@ -306,7 +309,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     margin-top: 10px;
 }
 
-<<<<<<< HEAD
+
 .cta-final button:hover {
     background-color: #3498db;
 }
@@ -319,7 +322,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
-=======
+}
 
 
 /*Quiénes somos style MISION*/
@@ -333,7 +336,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
   padding: 0;
   color: rgb(3, 3, 3);                             
   font-family: Arial, sans-serif;
->>>>>>> d9fd99c7aebcc41a0974609c899e96b5da393815
+
 }
 
 
@@ -395,11 +398,10 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     font-size: 18px;
     color: white;
     border-radius: 15px;
-<<<<<<< HEAD
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-=======
-  }
+
+  
 
   .cuadroblack{
     background-color: rgba(0, 0, 0, 0.5);
@@ -411,4 +413,3 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
->>>>>>> d9fd99c7aebcc41a0974609c899e96b5da393815
