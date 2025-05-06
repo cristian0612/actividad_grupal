@@ -174,7 +174,6 @@ fieldset{
 
 /*ajuste de video de reformas de piso cristian*/
 
-/*ajuste de video de reformas de pisos*/
 .video_reformas_pisos {
     position: relative;
     width: 100%;
@@ -301,7 +300,6 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     font-size: 1.2em;
     margin-top: 10px;
 }
-
 .cta-final button:hover {
     background-color: #3498db;
 }
@@ -314,5 +312,88 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
+
 }
 
+
+/*Quiénes somos style MISION*/
+.fondom {
+  background-image: url(./img/cuadro1.jpg); 
+  background-size: cover;                  
+  background-position: center;             
+  background-repeat: no-repeat;             
+  height: 100vh;                            
+  margin: 0;
+  padding: 0;
+  color: rgb(3, 3, 3);                             
+  font-family: Arial, sans-serif;
+}
+
+#mision h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#mision p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+/*Quiénes somos style VISIÓN*/
+ 
+  
+  #vision h2 {
+      font-size: 70px;
+      margin-bottom: 20px;
+  }
+  
+  #vision p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: auto;
+  }
+  
+  /*Quiénes somos style VALOR*/
+ 
+  
+  #valor h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#valor p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+/*Quiénes somos style EQUIPO*/
+ 
+  
+#equipo h2 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#equipo p {
+    font-size: 18px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .cuadroblack{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
