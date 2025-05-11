@@ -148,6 +148,7 @@ video {
     video {
         width: 100%;
     }
+}
 
 /*formulario melissa*/
 .fondo{
@@ -169,7 +170,6 @@ fieldset{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(204, 203, 203, 0.678);
 }
-
 /*ajuste de video de reformas de piso cristian*/
 .video_reformas_pisos {
     position: relative;
@@ -315,7 +315,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
 
 
 /*Quiénes somos style MISION*/
-.fondom{
+.fondom {
   background-image: url(./img/cuadro1.jpg); 
   background-size: cover;                  
   background-position: center;             
@@ -326,10 +326,6 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
   color: rgb(3, 3, 3);                             
   font-family: Arial, sans-serif;
 }
-
-
-
-
 
 #mision h2 {
     font-size: 70px;
@@ -387,7 +383,7 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     color: white;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
+  }
 
   .cuadroblack{
     background-color: rgba(0, 0, 0, 0.5);
@@ -399,4 +395,3 @@ background-image: url(./IMG/tranquilidad-proceso-reforma-casa.jpg);
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
-}

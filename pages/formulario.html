@@ -5,125 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="../styles.css">
-    
+    <link rel="shortcut icon" href="../IMG/Logo-1-580x387.jpg" type="image/x-icon">
 </head>
 <body class="fondo">
-    
-    <div id="formulario">
-        <div class="bordei">
-            <fieldset>
-                <legend>Datos Personales(*)</legend>
-                
-                <fieldset class="formulario" >
-                    <div class="elemento">
-                        <label>Apellidos: </label>
-                        <input type="text" name="apellidos" id="apellidos" required>
-                    </div>
 
-                    <div class="elemento">
-                        <label>Nombre: </label>
-                        <input type="text" name="nombre" id="nombre" required>
-                    </div>
+    <header>
+        <div class="logo">
+            <img src="../IMG/favicon.jpg" alt="Logo Empresa">
+        </div>
+        <div class="solucion1">
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a>
+                    <ul>
+                        <li><a href="../pages/reformas_pisos.html">Reformas de Pisos</a></li>
+                        <li><a href="../pages/reformas_casas.html">Reformas de Casa</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Quiénes Somos</a>
+                    <ul>
+                        <li><a href="../pages/vision.html">Visión</a></li>
+                        <li><a href="../pages/mision.html">Misión</a></li>
+                        <li><a href="../pages/valor.html">Valor</a></li>
+                        <li><a href="../pages/equipo.html">Equipo</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/formulario.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
 
-                    <div class="elemento">
-                        <label>DNI: </label>
-                        <input type="text" name="DNI" id="DNI" required>
-                    </div>
-
-                    <div> Provincia <select name="provincia">
-                            <option value="1">Álava</option>
-                            <option value="2">Albacete</option>
-                            <option value="3">Alicante</option>
-                            <option value="4">Almería</option>
-                            <option value="5">Asturias</option>
-                            <option value="6">Ávila</option>
-                            <option value="7">Badajoz</option>
-                            <option value="8">Barcelona</option>
-                            <option value="9">Burgos</option>
-                            <option value="10">Cáceres</option>
-                            <option value="11">Cádiz</option>
-                            <option value="12">Cantabria</option>
-                            <option value="13">Castellón</option>
-                            <option value="14">Ciudad Real</option>
-                            <option value="15">Córdoba</option>
-                            <option value="16">Cuenca</option>
-                            <option value="17">Girona</option>
-                            <option value="18">Granada</option>
-                            <option value="19">Guadalajara</option>
-                            <option value="20">Guipúzcoa</option>
-                            <option value="21">Huelva</option>
-                            <option value="22">Huesca</option>
-                            <option value="23">Illes Balears</option>
-                            <option value="24">Jaén</option>
-                            <option value="25">La Coruña</option>
-                            <option value="26">La Rioja</option>
-                            <option value="27">Las Palmas</option>
-                            <option value="28">León</option>
-                            <option value="29">Lleida</option>
-                            <option value="30">Lugo</option>
-                            <option value="31">Madrid</option>
-                            <option value="32">Málaga</option>
-                            <option value="33">Murcia</option>
-                            <option value="34">Navarra</option>
-                            <option value="35">Ourense</option>
-                            <option value="36">Palencia</option>
-                            <option value="37">Pontevedra</option>
-                            <option value="38">Salamanca</option>
-                            <option value="39">Santa Cruz de Tenerife</option>
-                            <option value="40">Segovia</option>
-                            <option value="41">Sevilla</option>
-                            <option value="42">Soria</option>
-                            <option value="43">Tarragona</option>
-                            <option value="44">Teruel</option>
-                            <option value="45">Toledo</option>
-                            <option value="46">Valencia</option>
-                            <option value="47">Valladolid</option>
-                            <option value="48">Vizcaya</option>
-                            <option value="49">Zamora</option>
-                            <option value="50">Zaragoza</option>
-
-                        </select>
-                    </div>
-                    <div>Fecha nacimiento: <input type="date" name="fecha de nacimiento">
-                    </div>
+    <!-- Formulario empieza aquí -->
+    <form action="#" method="post">
+        <div id="formulario">
+            <div class="bordei">
+                <fieldset>
+                    <legend>DATOS PERSONALES(*)</legend>
                     
-                    <div class="elemento">
-                        <label>Domicilio(Calle, plaza y número): </label>
-                        <input type="Domicilio" name="Domicilio" id="Domicilio" required>
-                    </div>
-                    <div class="elemento">
-                        <label>Código postal: </label>
-                        <input type="" name="Codigo" id="Codigo" required>
-                    </div>
-                    <div class="elemento">
-                        <label>Telefono: </label>
-                        <input type="tel" name="telefono" id="telefono" required>
-                    </div>
-                
-                </fieldset>
-                    <section id="servicios">
-                        
-                        <fieldset>
-                            <legend>Esta interesado en </legend>
-                            <div> Servicios <select name="servicios">
-                                <option value="1">Reformas de Pisos</option>
-                                <option value="2">Reformas de casas</option>
-                                <option value="3">Cocinas</option>
-                                <option value="4">Baños</option>
-                                <option value="5">Interiores</option>
+                    <fieldset class="formulario">
+                        <div class="elemento">
+                            <label>Apellidos: </label>
+                            <input type="text" name="apellidos" id="apellidos" required>
+                        </div>
 
-                            </select> 
+                        <div class="elemento">
+                            <label>Nombre: </label>
+                            <input type="text" name="nombre" id="nombre" required>
+                        </div>
+
+                        <div class="elemento">
+                            <label>DNI: </label>
+                            <input type="text" name="DNI" id="DNI" required>
+                        </div>
+
+                        <div>
+                            Provincia:
+                            <select name="provincia">
+                                <option value="1">Álava</option>
+                                <option value="2">Albacete</option>
+                                <option value="3">Alicante</option>
+                                <option value="4">Almería</option>
+                                <option value="5">Asturias</option>
+                                <option value="6">Ávila</option>
+                                <option value="7">Badajoz</option>
+                                <option value="8">Barcelona</option>
+                                <option value="9">Burgos</option>
+                                <option value="10">Cáceres</option>
+                                <option value="11">Cádiz</option>
+                                <option value="12">Cantabria</option>
+                                <option value="13">Castellón</option>
+                                <option value="14">Ciudad Real</option>
+                                <option value="15">Córdoba</option>
+                                <option value="16">Cuenca</option>
+                                <option value="17">Girona</option>
+                                <option value="18">Granada</option>
+                                <option value="19">Guadalajara</option>
+                                <option value="20">Guipúzcoa</option>
+                                <option value="21">Huelva</option>
+                                <option value="22">Huesca</option>
+                                <option value="23">Illes Balears</option>
+                                <option value="24">Jaén</option>
+                                <option value="25">La Coruña</option>
+                                <option value="26">La Rioja</option>
+                                <option value="27">Las Palmas</option>
+                                <option value="28">León</option>
+                                <option value="29">Lleida</option>
+                                <option value="30">Lugo</option>
+                                <option value="31">Madrid</option>
+                                <option value="32">Málaga</option>
+                                <option value="33">Murcia</option>
+                                <option value="34">Navarra</option>
+                                <option value="35">Ourense</option>
+                                <option value="36">Palencia</option>
+                                <option value="37">Pontevedra</option>
+                                <option value="38">Salamanca</option>
+                                <option value="39">Santa Cruz de Tenerife</option>
+                                <option value="40">Segovia</option>
+                                <option value="41">Sevilla</option>
+                                <option value="42">Soria</option>
+                                <option value="43">Tarragona</option>
+                                <option value="44">Teruel</option>
+                                <option value="45">Toledo</option>
+                                <option value="46">Valencia</option>
+                                <option value="47">Valladolid</option>
+                                <option value="48">Vizcaya</option>
+                                <option value="49">Zamora</option>
+                                <option value="50">Zaragoza</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            Fecha nacimiento: 
+                            <input type="date" name="fecha_nacimiento">
+                        </div>
+
+                        <div class="elemento">
+                            <label>Domicilio: </label>
+                            <input type="text" name="Domicilio" id="Domicilio" required>
+                        </div>
+
+                        <div class="elemento">
+                            <label>Código postal: </label>
+                            <input type="text" name="Codigo" id="Codigo" required>
+                        </div>
+
+                        <div class="elemento">
+                            <label>Teléfono: </label>
+                            <input type="tel" name="telefono" id="telefono" required>
+                        </div>
+                    </fieldset>
+
+                    <section id="servicios">
+                        <fieldset>
+                            <legend>ESTÁ INTERESADO EN</legend>
+                            <div>
+                                Servicios:
+                                <select name="servicios">
+                                    <option value="1">Reformas de Pisos</option>
+                                    <option value="2">Reformas de casas</option>
+                                    <option value="3">Cocinas</option>
+                                    <option value="4">Baños</option>
+                                    <option value="5">Interiores</option>
+                                </select>
+                            </div>
                         </fieldset>
                     </section>
 
                     <fieldset>
-                    <legend>Comentarios </legend>
-                    <div class="elemento">
-                        <textarea id="comentario" name="comentario" rows="6" cols="60" placeholder="Escribe tu comentario aquí..."></textarea><br>
-                        <button type="submit">Enviar</button>
-                    </div>
+                        <legend>COMENTARIOS</legend>
+                        <div class="elemento">
+                            <textarea id="comentario" name="comentario" rows="6" cols="60" placeholder="Escribe tu comentario aquí..."></textarea><br>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
                 </fieldset>
-             </form>
-             
+            </div>
+        </div>
+    </form>
+    <!-- Fin del formulario -->
+
 </body>
 </html>
